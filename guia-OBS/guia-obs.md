@@ -89,7 +89,7 @@ Ahora podes tocar el boton Start Streaming para empezar a transmitir o Start Rec
 
 ---
 
-**Hecho con <3 por [CLiC](https://colectivo-de-livecoders.gitlab.io/)**
+**Hecho con [<3](https://colectivo-de-livecoders.gitlab.io/)**
 
 
 
