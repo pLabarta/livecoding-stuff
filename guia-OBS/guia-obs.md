@@ -1,6 +1,6 @@
 # Como streamear usando OBS
 
-~esta guía es una traducción adaptada de la guía para streamear creada para el Equinoxio de Euleroom~
+*Esta guía es una traducción adaptada de la guía para streamear creada para el Equinoxio de Euleroom*
 
 ---
 
@@ -10,7 +10,7 @@ Lo primero es descargar e iniciar **Open Broadcaster Software** u **OBS** para l
 
 Vamos a tener que tocar la configuración para que todo funcione correctamente. Deberías ver un boton que dice "Settings", tocalo y vas a ver una pantalla como esta:
 
-![obs-1](/home/pablitx/Documents/Textos Clic/guia-OBS/img/obs-1.png)
+![obs-1](https://raw.githubusercontent.com/pLabarta/livecoding-stuff/master/guia-OBS/img/obs-1.png)
 
 ---
 
@@ -27,7 +27,7 @@ Tocá al costado izquierdo donde dice **"Stream"** y seleccioná a dónde queres
 
 Luego de configurar a dónde va a ir el video, tenemos que configurar cómo va a salir ese video. Entonces vamos a la pestaña **"Output"**. Lo conveniente y a prueba de toda conexión es configurar el `video bitrate` en `500` y el `audio bitrate` en 128.
 
-![obs-2](/home/pablitx/Documents/Textos Clic/guia-OBS/img/obs-2.png)
+![obs-2](https://raw.githubusercontent.com/pLabarta/livecoding-stuff/master/guia-OBS/img/obs-2.png)
 
 Esto es bastante bajo, especialmente si est[as trabajando con gráficos más allá de sonido. Sin embargo, mucha gente suele tener conexión de subida lenta. Podés tener una conexión de descarga muy rápida, pero la mayoría de los proveedores son bastante ratones y la subida, que usamos para transmitir el video, es lenta. Podés verificar tu velocidad acá: [http://www.speedtest.net/](http://www.speedtest.net/)
 
@@ -39,13 +39,13 @@ Si estás segura de que contás con una conexión rápida, podés probar configu
 
 En la parte de **"Audio"**, no hace falta configurar nada, pero se ve así:
 
-![obs-3](/home/pablitx/Documents/Textos Clic/guia-OBS/img/obs-3.png)
+![obs-3](https://raw.githubusercontent.com/pLabarta/livecoding-stuff/master/guia-OBS/img/obs-3.png)
 
 ---
 
 ## Video
 
-![obs-4](/home/pablitx/Documents/Textos Clic/guia-OBS/img/obs-4.png)
+![obs-4](https://raw.githubusercontent.com/pLabarta/livecoding-stuff/master/guia-OBS/img/obs-4.png)
 
 Acá vamos a configurar los **FPS** (frames per second/cuadros por segundo) en `10` y el `Output (Scaled) Resolution` en **854x480**. Si tu conexión es rápida, sentite libre de ponerle una resolución mayor, como **1280x720** y subir los FPS a **20** o más. Andá probando distintas combinaciones de bitrate, resolución y FPS hasta encontrar una que se vea y funcione bien.
 
@@ -57,7 +57,7 @@ Estas son las redomendaciones de YouTube: [https://support.google.com/youtube/an
 
 Dale aplicar y OK a la configuración para volver a la patalla principal. Ahora vamos a configurar la transmisión en si misma, lo que queremos que se vea y se escuche.
 
-![obs-5](/home/pablitx/Documents/Textos Clic/guia-OBS/img/obs-5.png)
+![obs-5](https://raw.githubusercontent.com/pLabarta/livecoding-stuff/master/guia-OBS/img/obs-5.png)
 
 OBS tiene cuatro columnas en la parte inferior: Scenes, Sources, Mixer y Scene Transitions.
 
